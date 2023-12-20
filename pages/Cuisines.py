@@ -73,7 +73,8 @@ def rename_columns(dataframe):
     return df
 
 # Carrregar Dados
-df = pd.read_csv('/dataset/zomato.csv')
+file_path = 'dataset/'
+df = pd.read_csv( file_path + 'zomato.csv' )
 df1 = df.copy()
 
 # Renomear Colunas
